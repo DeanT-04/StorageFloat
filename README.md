@@ -8,6 +8,17 @@
 
 ModelFloat is a free, distributed storage and serving system for open source AI models. It uses MEGA, Google Drive, and IPFS for storage, supports model fragmentation and reassembly, and provides a REST API for model upload, listing, and inference (mocked for MVP).
 
+**Models are never stored permanently on your desktop.**  
+- All model fragments are uploaded and redundantly stored across multiple cloud providers.
+- When a model is needed, fragments are securely and quickly retrieved from the cloud, reassembled in memory or temporary storage, and then removed after use.
+- This ensures you can access your models from anywhere, at any time, without relying on local disk storage.
+
+**Speed, Security, and Reliability:**  
+- Fragments are distributed with redundancy for high availability.
+- Retrieval is parallelized for speed.
+- All transfers use secure APIs and can be encrypted.
+- If a provider is unavailable, fragments are fetched from backups on other providers.
+
 ---
 
 ## Features
