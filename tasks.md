@@ -28,50 +28,50 @@
 
 ### Milestone 2: Metadata Registry
 
-- [ ] Design minimal metadata schema (file or SQLite)
-- [ ] Implement metadata registry module
-- [ ] Write tests for metadata registry
+- [x] Design minimal metadata schema (file or SQLite)
+- [x] Implement metadata registry module
+- [x] Write tests for metadata registry
 
 ---
 
 ### Milestone 3: Model Fragmentation
 
-- [ ] Design fragmentation logic (simulate with small files)
-- [ ] Implement model fragmenter
-- [ ] Write tests for fragmenter
+- [x] Design fragmentation logic (simulate with small files)
+- [x] Implement model fragmenter
+- [x] Write tests for fragmenter
 
 ---
 
 ### Milestone 4: Storage Adapters
 
-- [ ] Implement MEGA storage adapter
-- [ ] Implement Google Drive storage adapter
-- [ ] Implement IPFS storage adapter
-- [ ] Write tests for storage adapters
+- [x] Implement MEGA storage adapter
+- [x] Implement Google Drive storage adapter
+- [x] Implement IPFS storage adapter
+- [x] Write tests for storage adapters
 
 ---
 
 ### Milestone 5: Fragment Distribution & Retrieval
 
-- [ ] Implement fragment distribution logic
-- [ ] Implement fragment retrieval and assembly
-- [ ] Write tests for distribution/retrieval
+- [x] Implement fragment distribution logic
+- [x] Implement fragment retrieval and assembly
+- [x] Write tests for distribution/retrieval
 
 ---
 
 ### Milestone 6: REST API
 
-- [ ] Design API endpoints (upload, list, inference [mocked])
-- [ ] Implement API endpoints
-- [ ] Write tests for API
+- [x] Design API endpoints (upload, list, inference [mocked])
+- [x] Implement API endpoints
+- [x] Write tests for API
 
 ---
 
 ### Milestone 7: Testing & Finalization
 
-- [ ] Run all tests and document results
-- [ ] Update milestones.md and tasks.md
-- [ ] Finalize MVP and generate SUMMARY.md
+- [x] Run all tests and document results
+- [x] Update milestones.md and tasks.md
+- [x] Finalize MVP and generate SUMMARY.md
 
 ---
 
